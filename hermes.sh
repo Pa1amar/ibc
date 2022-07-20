@@ -5,6 +5,7 @@ sudo curl https://sh.rustup.rs -sSf | sh -s -- -y
 . $HOME/.cargo/env
 #install hermes
 git clone https://github.com/informalsystems/ibc-rs.git
+
 cd ibc-rs
 git checkout v1.0.0-rc.0
 cargo build --release --bin hermes
